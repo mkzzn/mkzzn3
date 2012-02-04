@@ -22,7 +22,7 @@
   <body>
     <div id="container">
       <div id="header">
-        zazaian
+        [zazaian]
       </div>
       <div class="clear"></div>
 
@@ -30,8 +30,7 @@
       <div id="navigation">
         {% for link in site.navigation %}
           <a href="{{ link.url }}" {% if page.title == link.title %}class="active" {% endif %}>
-            <div class="link-title">{{ link.title }}</div>
-            <div class="link-summary">{{ link.summary }}</div>
+            {{ link.title }}
           </a>
         {% endfor %}
 
