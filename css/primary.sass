@@ -20,8 +20,13 @@ body
   text-align: left
   font-size: 160px
 
-  font-weight: bold
-  font-family: "Telex", sans-serif
+  a
+    color: black
+    font-weight: bold
+    font-family: "Telex", sans-serif
+    &:hover
+      color: #54CDF3
+        
 
 #navigation
   width: 966px
@@ -59,15 +64,13 @@ body
     padding: 20px
     opacity: 0.95
   h2
-    font-family: "Open Sans", sans-serif
-    color: white
-    font-weight: normal
+    font-family: "Telex", sans-serif
+    color: black
+    font-weight: bold
     font-size: 2.1em
     margin: 20px 0 0 0
-    padding: 12px 20px
     opacity: 0.98
-    background: #14505A
-
+ 
   .copy
     font-family: "Open Sans", sans-serif
     color: black
@@ -106,6 +109,16 @@ body
     h2
       font-size: 28px
 
+#home
+  .column
+    float: left
+    h2
+      font-size: 2.1em
+    &#writing
+      width: 58%
+    &#other
+      margin-left: 4%
+      width: 35%
 
 #products, #news
   .product, .news
