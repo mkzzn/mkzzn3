@@ -20,13 +20,23 @@ body
   text-align: left
   font-size: 160px
 
-  a
+  a#title
     color: black
     font-weight: bold
     font-family: "Telex", sans-serif
+    text-decoration: none
+    float: left
     &:hover
-      color: #54CDF3
-        
+      opacity: 0.33
+
+  #hello
+    float: left
+    font-family: "Alegreya", serif
+    font-size: 24px
+    color: black
+    padding: 24px
+    margin-top: 32px
+    width: 360px
 
 #navigation
   width: 966px
@@ -110,12 +120,19 @@ body
       font-size: 28px
 
 #home
+  padding: 6px 32px
+  background: #efefef
+  min-height: 400px
   .column
     float: left
+    background: #efefef
     h2
-      font-size: 2.1em
+      font-size: 1.2em
     &#writing
       width: 58%
+      .byline
+        :font-size 13px
+        :font-style italic
     &#other
       margin-left: 4%
       width: 35%
@@ -280,7 +297,6 @@ body
 #footer
   font-family: "Open Sans", sans-serif
   color: white
-  margin: 40px 0 0 0
 
 #footer
   background: #111
