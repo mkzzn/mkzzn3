@@ -42,19 +42,11 @@
       </div>
 
       <div id="footer">
-        <div class="footer-links pages">
-          {% for link in site.navigation %}
-            <a href="{{ link.url }}" {% if page.title == link.title %}class="active" {% endif %}>
-              {{ link.title }}
-            </a>
-          {% endfor %}
-        </div>
-
-        <div class="footer-links links">
-          <a href="terms.html">Terms and Conditions</a>
-          <a href="rental_agreement.html">Reticle Rental Agreement</a>
-          <a href="users_list.html">PG 1000 Users List</a>
-        </div>
+        {% for link in site.navigation %}
+          <a href="{{ link.url }}" {% if page.title == link.title %}class="active" {% endif %}>
+            {{ link.title }}
+          </a>
+        {% endfor %}
 
         <div class="clear"></div>
       </div>
