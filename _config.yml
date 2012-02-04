@@ -10,6 +10,8 @@ navigation:
   url: design.html
 - title: Food
   url: downloads.html
+- title: Resume
+  url: resume.html
 - title: Contact
   url: contact.html
 
