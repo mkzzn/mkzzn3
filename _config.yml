@@ -4,6 +4,8 @@ pygments: true
 navigation:
 - title: Home
   url: ./
+- title: Writing
+  url: writing.html
 - title: Projects
   url: projects.html
 - title: Design

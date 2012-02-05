@@ -1,12 +1,12 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!!!>
 <html>
 <head>
 
-	<title>Lambdaphant | Michael Matuzak | Programmer | michael@lambdaphant.com</title>
+	<title>mkzzn | Resume</title>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
-	<meta name="keywords" content="web, application, programmer, los angeles, california" />
-	<meta name="description" content="A programmer that likes to build things." />
+	<meta name="keywords" content="ruby on rails developer, resume, rails, ruby, detroit, michigan" />
+	<meta name="description" content="The professional resume of Mike Zazaian" />
 
 	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.7.0/build/reset-fonts-grids/reset-fonts-grids.css" media="all" /> 
 	<link rel="stylesheet" type="text/css" href="/css/resume.css" media="all" />
@@ -20,17 +20,17 @@
 		<div id="hd">
 			<div class="yui-gc">
 				<div class="yui-u first">
-					<h1>Michael Matuzak</h1>
-					<h2>Programmer</h2>
+					<h1>Mike Zazaian</h1>
+					<h2>Web Developer and Designer</h2>
 				</div>
 
 				<div class="yui-u">
 					<div class="contact-info">
 						<!--<h3><a id="pdf" href="/resume/r.pdf">Download PDF</a></h3>-->
-						<h3><a href="mailto:michael@lambdaphant.com">michael@lambdaphant.com</a></h3>
-						<h3><a href="http://lambdaphant.com/">Lambdaphant.com</a></h3>
-						<h3><a href="http://github.com/emkay">Github</a></h3>
-						<h3><a href="http://twitter.com/mmatuzak">Twitter</a></h3>
+						<h3><a href="mailto:mike@zop.io">mike@zop.io</a></h3>
+						<h3><a href="http://mkzzn.com/">mkzzn.com</a></h3>
+						<h3><a href="http://github.com/mkzzn">Github: mkzzn</a></h3>
+						<h3><a href="http://twitter.com/mkzzn">Twitter: @mkzzn</a></h3>
 					</div><!--// .contact-info -->
 				</div>
 			</div><!--// .yui-gc -->
@@ -46,7 +46,7 @@
 						</div>
 						<div class="yui-u">
 							<p class="enlarge">
-							I love hacking software on OS X and Ubuntu. I know a couple different languages pretty well, and am confident with my general system administration skills.
+                I like building complex, well-tested and elegant web applications with Ruby on Rails, and designing beautiful interfaces and identities for them.  I leverage my project management and communication skills to extract efficiency from a team and focus on delivering business value and the best possible product.
 							</p>
 						</div>
 					</div><!--// .yui-gf -->
@@ -57,13 +57,13 @@
 						</div>
 						<div class="yui-u">
 								<div class="talent">
-									<h2>Frontend</h2>
-									<p>Software is more fun to use when it is <b>pretty</b> and <b>easy</b> to use.</p>
+									<h2>Backend</h2>
+									<p><b>Building</b> API's, <b>writing</b> libraries, and <b>making</b> things work.</p>
 								</div>
 
 								<div class="talent">
-									<h2>Backend</h2>
-									<p><b>Building</b> API's, <b>writing</b> libraries, and <b>making</b> things work.</p>
+									<h2>Frontend</h2>
+									<p>Software is more fun to use when it is <b>pretty</b> and <b>easy</b> to use.</p>
 								</div>
 
 								<div class="talent">
@@ -157,8 +157,9 @@
 							<h2>Education</h2>
 						</div>
 						<div class="yui-u">
-							<h2>University of California at Santa Cruz</h2>
-							<h3>Major, Philosophy</h3>
+							<h2>University of Michigan, Ann Arbor</h2>
+							<h3>Concentration in Film and Video Studies</h3>
+							<h3>Sub-Concentration in Screenwriting</h3>
 						</div>
 					</div><!--// .yui-gf -->
 
