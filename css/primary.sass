@@ -23,7 +23,6 @@ body
 #header
   padding: 0
   margin: 0
-  height: 180px
   text-align: left
   font-size: 160px
   //background: url("../images/index.png") top
@@ -32,25 +31,33 @@ body
     color: black
     font-weight: bold
     font-family: "Cabin", sans-serif
+    float: left
     text-decoration: none
-    float: left 
+    display: block
+    padding: 0
+    margin: 0
     &:hover
       opacity: 0.33
 
 
-  #hello
-    float: left
+  #subtitle
+    display: block
     font-family: "Alegreya", serif
     font-size: 24px
     color: black
-    padding: 24px
-    margin-top: 32px
-    width: 430px
+    margin-top: -32px
+
+#hello
+  font-size: 24px
+  font-family: "Alegreya", serif
+  float: left
+  padding: 18px
+        
 
 #navigation
   width: 966px
   margin: 0 auto
-  margin-top: -10px
+  margin-top: 20px
   background: #111
   opacity: 0.95
 
@@ -72,7 +79,7 @@ body
       color: #ff0
 
 #home
-  padding: 6px 32px
+  padding: 24px 32px
   .column
     float: left
     h2
@@ -92,11 +99,20 @@ body
       margin-left: 4%
       width: 35%
 
-#hi
-  font-size: 28px
-  font-family: "Alegreya", serif
-  margin: 20px
-
+#posts
+  width: 100%
+  padding: 0
+  margin: 0
+  font-family: "Alegreya", sans-serif
+  list-style-type: none
+  
+  .post
+    a.title
+      font-size: 21px
+      margin-left: 8px
+    .date
+      display: inline
+  
 #projects
   h4
     font-family: "Telex", sans-serif

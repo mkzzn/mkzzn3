@@ -1,0 +1,60 @@
+-# .column#writing
+-#   %h2 Edgar Bannister Goes to School For Monkey Bots
+  -#   .byline on February 3rd in Writing
+
+-# .column#other
+-#   .section#projects
+-#     %h4 Projects
+-#     .project
+-#       .title
+-#         %a{:href => "http://www.snakewise.com"} Snakewise
+-#       .summary
+-#         A comedy site, "The Wisest of All Snakes"
+
+-#     .project
+-#       .title
+-#         %a{:href => "/projects/snakewise.html"} Fugue Detroit
+-#       .summary
+-#         A monthly periodical exploring the issues, glories and misnomers of modern Detroit
+
+-#     .project
+-#       .title
+-#         %a{:href => "/projects/snakewise.html"} Syncytium
+-#       .summary
+-#         An art collective and Burning Man organization based in Ann Arbor, MI
+
+-#     .project
+-#       .title
+-#         %a{:href => "http://zop.io"} Zopio
+-#       .summary
+-#         My design and development company
+
+-#     .project
+-#       .title
+-#         %a{:href => "http://github.com/mkzzn/contented"} Contented
+-#       .summary
+-#         A foundational Rails 3 application for building periodicals
+
+-#     .project
+-#       .title
+-#         %a{:href => "http://github.com/mkzzn/contented"} 2915 John R, #705
+-#       .summary
+-#         Design and build-out of a historic Detroit loft
+
+-#     .project
+-#       .title
+-#         %a{:href => "http://github.com/mkzzn/contented"} Burning Clock
+-#       .summary
+-#         A simple countdown of days ot the 
+
+-#     .project
+-#       .title
+-#         %a{:href => "http://github.com/mkzzn/contented"} TechFreep
+-#       .summary
+-#         A defunct technology blog that I ran for a few months in 2006
+
+-#     .project
+-#       .title
+-#         %a{:href => "http://github.com/mkzzn/contented"} DoBlock
+-#       .summary
+-#         A defunct Rails blog that I ran for a few months in 2009

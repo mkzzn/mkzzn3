@@ -1,0 +1,15 @@
+---
+layout: default
+title: Home
+---
+
+<div id="home">
+  <div id="posts">
+    {% for post in site.posts %}
+      <div class="post">
+        <div class="date">{{ post.date | date_to_string }}</div>
+        <a href="{{ post.url }}" class="title">{{ post.title }}</a>
+      </div>
+    {% endfor %}
+  </div>
+</div>
